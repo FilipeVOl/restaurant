@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./PIZZARIA\ demo.woff') format('woff'),
+         url('./PIZZARIA\ demo.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+body {
+    background-color:   #CCCCFF ;
+}
+
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    border: 1px solid black;
+    background-color: #4169E1;
+    border-radius: 0.25rem;
+    width: 300px;
+}
+
+.entry-image {
+    height: 15rem;
+}
+
+.hours {
+    border: 1px solid black;
+    background-color: #6082B6;
+}
+
+.location {
+    border: 1px solid black;
+    background-color: #008080;
+}
+
+h1 {
+    font-family: 'MyFont';
+
+}
+
+.submit {
+    background-color: #7B68EE;
+    padding: 20px;
+}
+
+.buttoncontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+    
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+    border: 1px solid black;
+    width: 75px;
+    border-radius: 0.25rem;
+    background-color: #7B68EE;
+    font-weight: bolder;
+    height: 3rem;
+    box-shadow: 0 0 0 .1em inset var(--c); 
+    outline-offset: .1em;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;  
+}
+
